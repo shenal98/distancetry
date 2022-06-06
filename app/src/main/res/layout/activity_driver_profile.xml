@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#042272"
+        tools:context=".DriverProfileActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="665dp"></com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/Vechicle_Name"
+        android:layout_width="207dp"
+        android:layout_height="32dp"
+
+
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Vehicle Number"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneNumber"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Vechicle_Name"
+        app:layout_constraintEnd_toStartOf="@+id/Vechicle_Name"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Vechicle_Name"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_directions_car_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/PhoneNumber"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+
+
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Phone number"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DriverName"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="39dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PhoneNumber"
+        app:layout_constraintEnd_toStartOf="@+id/PhoneNumber"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/PhoneNumber"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_phone_android_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/DriverName"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Driver Name"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/DriverName"
+        app:layout_constraintEnd_toStartOf="@+id/DriverName"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/DriverName"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="172dp"
+        android:layout_height="172dp"
+
+        android:src="@drawable/profile_male"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="177dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Driver Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="295dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_desgin"
+        android:text="Edit"
+        android:textAllCaps="true"
+        android:textColor="#121111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

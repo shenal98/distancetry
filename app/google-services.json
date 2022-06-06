@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "871950494179",
+    "firebase_url": "https://firetripdetails-default-rtdb.firebaseio.com",
+    "project_id": "firetripdetails",
+    "storage_bucket": "firetripdetails.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871950494179:android:7ad5f6f83e86a1012058d6",
+        "android_client_info": {
+          "package_name": "com.techtop.distancetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871950494179-2dqv4aqkbvkgeb19t73g0m7h3bmgkdu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "033242074636a160fcbaac42c2b4cf435f7218df"
+          }
+        },
+        {
+          "client_id": "871950494179-jeasb6ije7a122f3vipr2glvle44tre1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "0caea3840ffd82a023e1314ee473d19822b3b8ac"
+          }
+        },
+        {
+          "client_id": "871950494179-0e5656lghhv0kns13a2hh1veh00g8lcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-1k5fIB1Xh90Nz4cFa73DBul5MhnAflQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871950494179-0e5656lghhv0kns13a2hh1veh00g8lcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
